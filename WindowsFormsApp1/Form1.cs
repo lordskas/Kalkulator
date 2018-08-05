@@ -27,6 +27,7 @@ namespace WindowsFormsApp1
                 double waga = Convert.ToDouble(txtWaga.Text);
                 int wiek = Convert.ToInt32(txtWiek.Text);
 
+
                 if (radioK.Checked)
                 {
                     double obliczenia = 665.09 + (9.56 * waga) + (1.85 * wzrost) - (4.67 * wiek);
